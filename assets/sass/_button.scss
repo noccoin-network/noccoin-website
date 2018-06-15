@@ -1,0 +1,52 @@
+.welcome-btn{
+    width:250px;
+    height: 48px;
+    border-radius:3px ;
+    font-weight: 500;
+    font-size: $font-16;
+    background: $black-color;
+    color: $white-color;
+    border: 1px solid $white-color;
+}
+.welcome-btn:hover {
+    outline: 0;
+    box-shadow: 3px 3px 0 #fff;
+    transform: translate(-3px,-3px);
+}
+
+.sub-input{
+    width:264px;
+    height: 48px;
+    border-radius: 3px;
+    background: $white-color;
+    padding: 12px 22px;
+    border: 2px solid #000;
+    font-size: $font-16;
+    @include screenSize(ss-phone){
+        margin-bottom: 1em;
+    }
+}
+.sub-input:focus{
+    outline: 0;
+    box-shadow: 0px 0 4px 4px #6176ab;
+    border: 1px solid #6176ab !important;
+}
+.btn-large{
+    width:190px;
+    height: 48px;
+    border-radius:3px ;
+    font-weight: 500;
+    font-size: $font-16;
+    background: $black-color;
+    color: $white-color;
+    border: 1px solid $white-color;
+    @include screenSize(ss-phone){
+        width:264px;
+        margin-left: 0 !important;
+    }
+}
+.btn-large:hover{
+    outline: 0;
+    box-shadow: 3px 3px 0 #fff;
+    transform: translate(-3px,-3px);
+}

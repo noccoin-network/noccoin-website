@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: "Tajawal", sans-serif;
+    font-size: $font-14;
+    font-weight: normal;
+    width:100%;
+    background: $white-color;
+}
+body{
+    font-family: 'Work Sans', sans-serif !important;
+}
+//font-sizes
+.f-12{ font-size: $font-12; }
+.f-14{ font-size: $font-14; }
+.f-16{ font-size: $font-16; }
+.f-24{ font-size: $font-24; }
+.f-36{ font-size: $font-36; }
+.f-40{ font-size: $font-40; }
+.f-58{ font-size: $font-58; }
+
+
+//background
+.bg-grey{ background: #cdcdcd;}
+.bg-black{ background: $black-color; }
+.grey-sd{ color: #9b9b9b; }
+.grey-bd{ border: 1px solid #cdcdcd; }
+.bd-right-grey{ border-right: 1px solid #cdcdcd; }
+.bd-right-blk{ border-right: 3px solid $black-color !important;}
+.pull-left{ float: left; }
+.pull-right{ float: right; }
+.list-none{ list-style-type: none; }
+.no-decor{ text-decoration: none; }
+.no-decor:hover{ 
+    text-decoration: none;
+    color: #cdcdcd; 
+}
+
+//widths
+.width-300{ width:300px; }
+
+
+//paddings
+.pt-19r{ 
+    padding-top: 17rem;
+    @include screenSize(ls-phone){
+        padding-top: 1rem;
+    }
+    @include screenSize(ss-phone){
+        padding-top: 8rem;
+    }
+ }
+
+//margins
+.mt-64{ margin-top: 64px; }
+.mt-80{ margin-top: 80px; }
+.mt-7e2{ margin-top: 7.2rem; }
+
+//custom styling
+.welcome_inner-text{
+}
+.card{
+    @include screenSize(ls-phone){
+        margin-bottom: 1em;
+    }
+    @include screenSize(ss-phone){
+        margin-bottom: 1em;
+    }
+}
+.wrapper{
+    h3{
+        @include screenSize(ss-phone){
+            text-align: center;
+            padding: 1em 0 0;
+        }
+    }
+}
+.content{
+    @include screenSize(ss-phone){
+        padding: 1rem 1rem 0 2.5rem;
+    }
+}
+.row{
+    @include screenSize(ss-phone){
+        margin-left: 0 !important;
+    }
+}

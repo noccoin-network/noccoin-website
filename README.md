@@ -1,2 +1,2 @@
 # noccoin-website
-Decentralized social ads
+Decentralizing social ads
