@@ -65,7 +65,7 @@ body {
 
 /* line 28, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
 .bg-black {
-  background: #000;
+  background: #112844;
 }
 
 /* line 29, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
@@ -100,7 +100,7 @@ body {
 
 /* line 35, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
 .bd-right-blk {
-  border-right: 3px solid #000 !important;
+  border-right: 3px solid #112844 !important;
 }
 
 /* line 36, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
@@ -130,65 +130,70 @@ body {
 }
 
 /* line 46, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
+.width-80 {
+  width: 80px;
+}
+
+/* line 47, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
 .width-300 {
   width: 300px;
 }
 
-/* line 47, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
+/* line 49, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
 .h-400 {
   height: 400px !important;
 }
 
-/* line 51, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
+/* line 53, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
 .pt-19r {
   padding-top: 17rem;
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  /* line 51, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
+  /* line 53, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
   .pt-19r {
     padding-top: 1rem;
   }
 }
 
 @media (max-width: 575px) {
-  /* line 51, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
+  /* line 53, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
   .pt-19r {
     padding-top: 8rem;
   }
 }
 
-/* line 62, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
+/* line 64, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
 .mt-64 {
   margin-top: 64px;
 }
 
-/* line 63, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
+/* line 65, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
 .mt-80 {
   margin-top: 80px;
 }
 
-/* line 64, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
+/* line 66, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
 .mt-7e2 {
   margin-top: 7.2rem;
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  /* line 70, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
+  /* line 72, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
   .card {
     margin-bottom: 1em;
   }
 }
 
 @media (max-width: 575px) {
-  /* line 70, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
+  /* line 72, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
   .card {
     margin-bottom: 1em;
   }
 }
 
 @media (max-width: 575px) {
-  /* line 79, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
+  /* line 81, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
   .wrapper h3 {
     text-align: center;
     padding: 1em 0 0;
@@ -196,20 +201,20 @@ body {
 }
 
 @media (max-width: 575px) {
-  /* line 86, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
+  /* line 88, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
   .content {
     padding: 1rem 1rem 0 2.5rem;
   }
 }
 
 @media (max-width: 575px) {
-  /* line 91, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
+  /* line 93, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
   .row {
     margin-left: 0 !important;
   }
 }
 
-/* line 96, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
+/* line 98, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
 .msg-input {
   width: 80%;
   border: 2px solid #000;
@@ -217,7 +222,7 @@ body {
   padding: 0 1em;
 }
 
-/* line 102, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
+/* line 104, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
 .bs-dark {
   border: 2px solid #eee;
   box-shadow: 0px 1px 1px 2px #ededed;
@@ -230,7 +235,7 @@ body {
   border-radius: 3px;
   font-weight: 500;
   font-size: 16px;
-  background: #000;
+  background: #112844;
   color: #FFF;
   border: 1px solid #FFF;
 }
@@ -274,7 +279,7 @@ body {
   border-radius: 3px;
   font-weight: 500;
   font-size: 16px;
-  background: #000;
+  background: #112844;
   color: #FFF;
   border: 1px solid #FFF;
 }
