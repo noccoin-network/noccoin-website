@@ -45,7 +45,18 @@
         margin-left: 0 !important;
     }
 }
-.btn-large:hover{
+.btn-nav{
+    background: transparent;
+}
+.btn-nav:hover{
+    background: transparent;
+}
+.btn:hover{
+    outline: 0;
+    box-shadow: 3px 3px 0 #fff;
+    transform: translate(-3px,-3px);
+}
+.btn-large:hover {
     outline: 0;
     box-shadow: 3px 3px 0 #fff;
     transform: translate(-3px,-3px);

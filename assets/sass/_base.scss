@@ -26,9 +26,12 @@ body{
 //background
 .bg-grey{ background: #cdcdcd;}
 .bg-black{ background: $black-color; }
+.bg-white{ background: #fff; }
 .grey-sd{ color: #9b9b9b; }
 .grey-bd{ border: 1px solid #cdcdcd; }
+.br-30{ border-radius: 30px!important; }
 .bd-right-grey{ border-right: 1px solid #cdcdcd; }
+.white-bd{ border: 1px solid #fff; }
 .bd-right-blk{ border-right: 3px solid $black-color !important;}
 .pull-left{ float: left; }
 .pull-right{ float: right; }
@@ -41,6 +44,7 @@ body{
 
 //widths
 .width-300{ width:300px; }
+.h-400{ height: 400px !important; }
 
 
 //paddings
@@ -58,6 +62,7 @@ body{
 .mt-64{ margin-top: 64px; }
 .mt-80{ margin-top: 80px; }
 .mt-7e2{ margin-top: 7.2rem; }
+
 
 //custom styling
 .welcome_inner-text{
@@ -87,4 +92,14 @@ body{
     @include screenSize(ss-phone){
         margin-left: 0 !important;
     }
+}
+.msg-input{
+    width: 80%;
+    border: 2px solid #000;
+    height: 80px;
+    padding: 0 1em;
+}
+.bs-dark{
+    border: 2px solid #eee;
+    box-shadow: 0px 1px 1px 2px #ededed;
 }
