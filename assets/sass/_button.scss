@@ -61,3 +61,12 @@
     box-shadow: 3px 3px 0 #fff;
     transform: translate(-3px,-3px);
 }
+
+.presale-btn{
+    @include screenSize(ls-phone){
+        width:200px;
+    }
+    @include screenSize(ss-phone){
+        width:200px;
+    }
+}

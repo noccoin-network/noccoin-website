@@ -228,6 +228,14 @@ body {
   box-shadow: 0px 1px 1px 2px #ededed;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 108, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
+  .presale-wrapper {
+    margin: 0 1em;
+    padding: 0 2em;
+  }
+}
+
 /* line 1, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_button.scss */
 .welcome-btn {
   width: 250px;
@@ -314,6 +322,20 @@ body {
   outline: 0;
   box-shadow: 3px 3px 0 #fff;
   transform: translate(-3px, -3px);
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  /* line 65, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_button.scss */
+  .presale-btn {
+    width: 200px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 65, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_button.scss */
+  .presale-btn {
+    width: 200px;
+  }
 }
 
 /*# sourceMappingURL=../css/main.map */

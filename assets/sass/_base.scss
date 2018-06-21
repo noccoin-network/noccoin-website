@@ -105,3 +105,9 @@ body{
     border: 2px solid #eee;
     box-shadow: 0px 1px 1px 2px #ededed;
 }
+.presale-wrapper{
+    @include screenSize(tablet){
+        margin: 0 1em;
+        padding: 0 2em;
+    }
+}
