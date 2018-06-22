@@ -22,10 +22,12 @@ body{
 .f-40{ font-size: $font-40; }
 .f-58{ font-size: $font-58; }
 
+.fw-700{ font-weight: 700; }
 
 //background
 .bg-grey{ background: #cdcdcd;}
 .bg-black{ background: $black-color; }
+.brand-color{ color: $black-color; }
 .bg-white{ background: #fff; }
 .grey-sd{ color: #9b9b9b; }
 .grey-bd{ border: 1px solid #cdcdcd; }
@@ -51,12 +53,12 @@ body{
 
 //paddings
 .pt-19r{ 
-    padding-top: 17rem;
+    padding-top: 22rem;
     @include screenSize(ls-phone){
         padding-top: 1rem;
     }
     @include screenSize(ss-phone){
-        padding-top: 8rem;
+        padding-top: 12rem;
     }
  }
 
@@ -68,6 +70,18 @@ body{
 
 //custom styling
 .welcome_inner-text{
+    @include screenSize(tablet){
+        h1{
+            // padding-left: 4em !important;
+            padding-right: 10em !important;
+        }
+        
+    }
+    @include screenSize(ss-phone){
+        h1{
+            line-height: 1.5em;
+        }
+    }
 }
 .card{
     @include screenSize(ls-phone){
