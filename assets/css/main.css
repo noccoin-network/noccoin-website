@@ -156,20 +156,20 @@ body {
 
 /* line 55, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
 .pt-19r {
-  padding-top: 22rem;
+  padding-top: 19rem;
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 768px) and (max-width: 991px) {
   /* line 55, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
   .pt-19r {
-    padding-top: 1rem;
+    padding-top: 15rem;
   }
 }
 
 @media (max-width: 575px) {
   /* line 55, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_base.scss */
   .pt-19r {
-    padding-top: 12rem;
+    padding-top: 7rem;
   }
 }
 

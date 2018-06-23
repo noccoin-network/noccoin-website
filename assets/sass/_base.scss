@@ -53,12 +53,12 @@ body{
 
 //paddings
 .pt-19r{ 
-    padding-top: 22rem;
-    @include screenSize(ls-phone){
-        padding-top: 1rem;
+    padding-top: 19rem;
+    @include screenSize(tablet){
+        padding-top: 15rem;
     }
     @include screenSize(ss-phone){
-        padding-top: 12rem;
+        padding-top: 7rem;
     }
  }
 
