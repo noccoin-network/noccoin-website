@@ -70,3 +70,19 @@
         width:200px;
     }
 }
+.contact-btn{
+    @include screenSize(ss-phone){
+        
+        margin-bottom:1em;
+    }
+}
+.contact-input{
+    @include screenSize(ss-phone){
+        width: 90%;
+        margin: auto;
+    }
+}
+#contact-msg{
+    width: 90%;
+    margin: auto;
+}

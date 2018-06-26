@@ -362,4 +362,25 @@ body {
   }
 }
 
+@media (max-width: 575px) {
+  /* line 73, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_button.scss */
+  .contact-btn {
+    margin-bottom: 1em;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 79, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_button.scss */
+  .contact-input {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+/* line 85, C:/Users/Baron2Oxide/Desktop/noccoin-website/assets/sass/_button.scss */
+#contact-msg {
+  width: 90%;
+  margin: auto;
+}
+
 /*# sourceMappingURL=../css/main.map */
